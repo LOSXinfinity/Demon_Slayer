@@ -35,12 +35,6 @@ open index.html  # or double-click the file
 
 ---
 
-## 📸 Screenshots
-
-| Default View (Yoriichi / Sun) | Revealing Kokushibo (Moon) |
-|:---:|:---:|
-| ![Yoriichi](assets/screenshot-yoriichi.png) | ![Kokushibo](assets/screenshot-kokushibo.png) |
-
 *Move your mouse/touch to reveal the Moon Breathing wielder beneath the Sun Breathing progenitor.*
 
 ---
@@ -114,7 +108,7 @@ const OVERLAY = 'rgba(0,0,0,0.5)';
 ## ⚙️ How It Works
 
 ```
-top image (Yoriichi)     ──► visible canvas (+ overlay)
+top image (Yoriichi)      ──► visible canvas (+ overlay)
 trail circles             ──► offscreen canvas (mask)
 bottom image (Kokushibo)  ──► offscreen canvas (source-in composite)
 offscreen result          ──► visible canvas
@@ -177,7 +171,3 @@ demon-slayer-reveal/
 > *The sun and the moon, forever chasing each other across the sky.* ⚔️
 
 ---
-
-## 📜 License
-
-MIT License — see [LICENSE](LICENSE) for details.
